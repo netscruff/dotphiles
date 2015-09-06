@@ -28,7 +28,7 @@ mailboxes +work/Inbox \
           +work/Drafts
 bind index         "\Ca" 'imap-fetch-mail'
 fcc-hook ~A "+work/Archive" # Saves copies of outgoing mail to         "Archive" folder
-
+source $HOME/.mutt/colors/solarized
 # Sidebar Patch --------------------------------------
 #set sidebar_delim       = '  │'
 #color sidebar_new color221 color233
