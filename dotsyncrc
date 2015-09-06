@@ -37,8 +37,9 @@ dotsyncrc
 #mpd/mpd.conf
 #mercurial/hgrc
 #mercurial/hgignore
-#mutt
-#mutt/muttrc
+mutt
+mutt/muttrc
+mutt/mbsyncrc
 #mutt/offlineimaprc
 #mysql/my.cnf
 #ncmpcpp/config
