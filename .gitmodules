@@ -15,4 +15,4 @@
 	url = https://github.com/dotphiles/dotzsh.git
 [submodule "vim/dotvim"]
 	path = vim/dotvim
-	url = https://github.com/dotphiles/dotvim.git
+	url = git@github.com:netscruff/dotvim.git
