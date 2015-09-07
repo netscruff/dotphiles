@@ -29,7 +29,7 @@ dotsyncrc
 #git/gitattributes
 #git/tigrc
 #git/gitk
-#gnupg
+gnupg
 #grc
 #input/editrc
 #input/inputrc
