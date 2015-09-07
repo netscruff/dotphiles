@@ -16,7 +16,7 @@ Channel work
 Master :work-remote:
 Slave :work-local:
 # Or include everything
-Patterns "INBOX" "Other" "Archive" "Drafts" "Deleted Items"
+Patterns "INBOX" "Other" "Archive" "Drafts" "Deleted Items" "Junk Email" "Notes"
 # Automatically create missing mailboxes, both locally and on the server
 Create Both
 #Expunge Both

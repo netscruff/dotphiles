@@ -47,7 +47,7 @@ set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)
 
 # Sending mail ---------------------------------------
 set from        ="darren.boss@duke.edu"
-set realname        ="Darren Boss" 
+set realname        ="Darren Boss"
 set use_from        ="yes"
 set envelope_from    ="yes"
 set sendmail        ="/usr/bin/msmtp"
@@ -71,10 +71,6 @@ bind index gg       first-entry
 bind index G        last-entry
 bind index R        group-reply
 bind index <space>  collapse-thread
-
-# Sync email
-macro index O "<shell-escape>mbsync work<enter>"           "run mbsync to sync all mail"
-macro index o "<shell-escape>mbsync work<enter>" "run mbsync to sync inbox"
 
 # Saner copy/move dialogs
 macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
