@@ -19,3 +19,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "dotfiles-private"]
+	path = dotfiles-private
+	url = git@gitlab.oit.duke.edu:dtb17/dotfiles-private.git
