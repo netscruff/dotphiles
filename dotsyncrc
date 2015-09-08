@@ -84,6 +84,7 @@ zsh/zshrc
 [hosts]
 maude.home			git=ANY
 localhost			git=ANY
+duke-cs-136-dhcp-188			git=ANY
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
 #host3.example.com               git=ANY                                                #git repo, pull from anywhere
