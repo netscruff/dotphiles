@@ -121,3 +121,4 @@ set mail_check=5
 
 auto_view text/html
 alternative_order text/plain text/enriched text/html
+alternates  ^dtb17@duke.edu ^darren.boss@dm.duke.edu
