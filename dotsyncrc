@@ -42,6 +42,7 @@ mutt/muttrc
 mutt/mbsyncrc
 #mutt/offlineimaprc
 #mysql/my.cnf
+msmtp/msmtprc
 #ncmpcpp/config
 #ncmpcpp/error.log
 #postgresql/psqlrc
