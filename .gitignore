@@ -22,16 +22,19 @@ subversion/README.txt
 subversion/auth/*
 gnupg/secring.gpg
 gnupg/pubring.gpg
+gnupg/pubring.kbx
 gnupg/trustdb.gpg
 gnupg/gpg-agent.env
 gnupg/sshcontrol
 gnupg/random*
 gnupg/private*
 gnupg/*~
+gnupg/openpgp-revocs.d
 mercurial/certs/
 mutt/cache/*
 mutt/mailboxes.*
 mutt/smime/*
 mutt/certificates
+mutt/temp/mutt-localhost*
 task/task/*.data
 

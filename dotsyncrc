@@ -61,6 +61,7 @@ msmtp/msmtprc
 #shell/urlview
 #ssh
 #subversion
+systemd:.config/systemd/user
 #task/task
 #task/taskrc
 #tmux/tmux.conf
