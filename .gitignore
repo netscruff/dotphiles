@@ -36,5 +36,6 @@ mutt/mailboxes.*
 mutt/smime/*
 mutt/certificates
 mutt/temp/mutt-localhost*
+mutt/temp/mutt-maude*
 task/task/*.data
 
