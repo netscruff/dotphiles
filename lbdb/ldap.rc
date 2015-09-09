@@ -1,0 +1,27 @@
+%ldap_server_db = (
+    'duke' => ['ldap://ldap.duke.edu',
+                    'ou=people,dc=duke,dc=edu',
+                    'uid cn sn givenName', 'uid cn mail displayName',
+                    '${mail}', '${displayName}', '${uid}']
+);
+
+# hostname of your ldap server
+$ldap_server = 'ldap.duke.edu';
+# ldap base search
+$search_base = 'ou=people,dc=duke,dc=edu';
+# list of the fields that will be used for the query
+$ldap_search_fields = 'uid cn sn givenName';
+# list of the fields that will be used for composing the answer
+$ldap_expected_answers = 'sn mail givenName';
+# format of the email result based on the expected answers of the ldap query
+$ldap_result_email = '${mail}';
+# format of the realname result based on the expected answers of the ldap query
+$ldap_result_realname = '${givenName}';
+# format of the comment result based on the expected answers of the ldap query
+$ldap_result_comment = '(${uid})';
+# Don't use wildchars on searching
+$ignorant = 0;
+# Do an anonymous bind to the LDAP server:
+$ldap_bind_dn = '';
+$ldap_bind_password = '';
+1;

@@ -34,6 +34,7 @@ gnupg
 #input/editrc
 #input/inputrc
 #irssi
+lbdb
 #mpd/mpd.conf
 #mercurial/hgrc
 #mercurial/hgignore
