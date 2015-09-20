@@ -79,7 +79,7 @@ bind index <space>  collapse-thread
 macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
 macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
 macro index,pager A   "<tag-thread><tag-prefix-cond><save-message>+work/Archive<enter>"  "Archive all in thread"
-macro index,pager a   "<save-message>+work/Archive<enter>"                               "Archive message"
+macro index,pager a   "<save-message>+work/Archive<enter><enter>"                               "Archive message"
 macro index       -   "<limit>all\n"                                                     "show all messages (undo limit)"
 macro index       \C_ "<tag-pattern>~N<enter><tag-prefix-cond>N<untag-pattern>~T<enter>" "mark all as read"
 
