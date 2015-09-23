@@ -9,9 +9,11 @@ set tmpdir           = ~/.mutt/temp          # where to keep temp files
 set signature        = ~/.mutt/sig           # my signature file
 
 # Account Settings -----------------------------------
-set spoolfile         = "+work/Inbox" #Default inbox.
-set mbox              = "+work/Archive"
-set postponed         = "+work/Drafts"
+set imap_user="dtb17@duke.edu"
+
+set spoolfile         = "imap://outlook.office365.com/INBOX" #Default inbox.
+set mbox              = "imap://outlook.office365.com/INBOX"
+set postponed         = "imap://outlook.office365.com/Drafts"
 set editor        = "vim -c \"set spell spelllang=en\""
 #set trash        = "+work/Deleted\ Items"
 set index_format    ="%4C %Z %D %-15.15L (%4l) %s"
@@ -79,7 +81,7 @@ bind index <space>  collapse-thread
 macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
 macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
 macro index,pager A   "<tag-thread><tag-prefix-cond><save-message>+work/Archive<enter>"  "Archive all in thread"
-macro index,pager a   "<save-message>+work/Archive<enter><enter>"                               "Archive message"
+macro index,pager a   "<save-message>imap://outlook.office365.com/Archive<enter><enter>"                               "Archive message"
 macro index       -   "<limit>all\n"                                                     "show all messages (undo limit)"
 macro index       \C_ "<tag-pattern>~N<enter><tag-prefix-cond>N<untag-pattern>~T<enter>" "mark all as read"
 
