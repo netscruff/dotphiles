@@ -14,6 +14,7 @@ set imap_user="dtb17@duke.edu"
 set spoolfile         = "imap://outlook.office365.com/INBOX" #Default inbox.
 set mbox              = "imap://outlook.office365.com/INBOX"
 set postponed         = "imap://outlook.office365.com/Drafts"
+set record            = "imap://outlook.office365.com/Sent Items"
 set editor        = "vim -c \"set spell spelllang=en\""
 #set trash        = "+work/Deleted\ Items"
 set index_format    ="%4C %Z %D %-15.15L (%4l) %s"
@@ -29,7 +30,7 @@ mailboxes +work/Inbox \
           +work/Deleted\ Items \
           +work/Drafts
 bind index         "\Ca" 'imap-fetch-mail'
-fcc-hook ~A "+work/Archive" # Saves copies of outgoing mail to         "Archive" folder
+#fcc-hook ~A "+work/Archive" # Saves copies of outgoing mail to         "Archive" folder
 source $HOME/.mutt/colors/solarized
 source $HOME/.mutt/config/pgp
 source $HOME/.mutt/config/smime
