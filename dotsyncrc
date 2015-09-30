@@ -65,8 +65,8 @@ msmtp/msmtprc
 systemd:.config/systemd/user
 #task/task
 #task/taskrc
-#tmux/tmux.conf
-#tmux/tmuxinator
+tmux/tmux.conf
+tmux/tmuxinator
 vim/dotvim:.vim
 vim/vimrc
 #vim/gvimrc
